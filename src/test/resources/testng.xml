@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <!--<listeners>
+        <listener class-name="retryAnalyzer.RetryTransformer" />
+   </listeners>-->
+   <test name="Smoke">
+
+       <classes>
+           <class name="org.example.Hooks.Hooks"/>
+           <class name="org.example.tests.HotelsSearchTest"/>
+       </classes>
+   </test>
+</suite>
